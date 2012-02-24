@@ -4,6 +4,7 @@
 require 'allegro_graph'
 require 'linkeddata'
 require 'set'
+require './config'
 
 class AGraph
   attr_accessor :username, :password, :host, :port
@@ -11,7 +12,7 @@ class AGraph
   ##
   # Constructor
   # 192.168.0.99 | 67.240.190.231
-  def initialize(user='admin',pass='recrins',host='192.168.0.99',port=8080)
+  def initialize(user,pass,host,port)
     @username = user
     @password = pass
     @host = host
@@ -133,11 +134,11 @@ end
 
 
 # test
-ag = AGraph.new('admin','recrins','ninjalearning.info',8080)
+ag = AGraph.new($AGRAPH['user'],$AGRAPH['pass'],$AGRAPH['host'],$AGRAPH['port'])
 ag.set_repository = "bestbuy_test"
 
 graph = RDF::Graph.new
 graph << RDF::RDFa::Reader.open("http://www.bestbuy.com/shop/ipad+xoom+-windows")
 puts graph.statements.count
 
-ag.insert(graph)
+#ag.insert(graph)

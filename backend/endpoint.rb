@@ -2,12 +2,13 @@
 
 require 'allegro_graph'
 require 'set'
+require './config'
 
 # Return a set with all the classes and subclasses form the Repository
 def get_ontology_terms(repositoryName = "ComputerScience")
   puts "get_ontology_terms from catalog: " + repositoryName
   # Repository management
-  server = AllegroGraph::Server.new :username => "admin", :password => "recrins", :host => "ninjalearning.info", :port => 8080
+  server = AllegroGraph::Server.new :username => $AGRAPH['user'], :password => $AGRAPH['pass'], :host => $AGRAPH['host'], :port => $AGRAPH['port']
   repository = AllegroGraph::Repository.new server, repositoryName
   repository.create_if_missing!
 
