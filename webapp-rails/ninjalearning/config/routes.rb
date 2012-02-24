@@ -1,4 +1,14 @@
 Ninjalearning::Application.routes.draw do
+  get "admin/index"
+
+  get "study/index"
+
+  get "browse/index"
+
+  get "home/index"
+
+  root :to => "home#index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
