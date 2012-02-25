@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns="http://example.org/stuff/">
+  <rdfs:Class rdf:about="http://xmlns.com/foaf/0.1/Agent">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://xmlns.com/foaf/0.1/Person">
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://xmlns.com/foaf/0.1/Organization">
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+  </rdfs:Class>
+  <foaf:Organization rdf:about="http://example.org/stuff/HMSS">
+    <foaf:name>Her Majesty's Secret Service</foaf:name>
+    <foaf:nick>HMSS</foaf:nick>
+    <foaf:member rdf:resource="http://example.org/stuff/M"/>
+    <foaf:member rdf:resource="http://example.org/stuff/Q"/>
+    <foaf:member rdf:resource="http://example.org/stuff/Bond"/>
+    <foaf:member rdf:resource="http://example.org/stuff/Kerim"/>
+  </foaf:Organization>
+  <foaf:Person rdf:about="http://example.org/stuff/M">
+    <foaf:name>M</foaf:name>
+    <foaf:knows rdf:resource="http://example.org/stuff/Q"/>
+    <foaf:knows rdf:resource="http://example.org/stuff/Bond"/>
+    <foaf:knows rdf:resource="http://example.org/stuff/Kerim"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://example.org/stuff/Q">
+    <foaf:name>Q</foaf:name>
+    <foaf:knows rdf:resource="http://example.org/stuff/M"/>
+    <foaf:knows rdf:resource="http://example.org/stuff/Bond"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://example.org/stuff/Bond">
+    <foaf:name>James Bond</foaf:name>
+    <foaf:knows rdf:resource="http://example.org/stuff/M"/>
+    <foaf:knows rdf:resource="http://example.org/stuff/Q"/>
+  </foaf:Person>
+  <foaf:Person rdf:about="http://example.org/stuff/Kerim">
+    <foaf:name>Darko Kerim</foaf:name>
+    <foaf:knows rdf:resource="http://example.org/stuff/M"/>
+  </foaf:Person>
+</rdf:RDF>

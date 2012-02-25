@@ -1,0 +1,77 @@
+10
+
+dir
+22
+http://activerdfagraph.rubyforge.org/svn/example/test
+http://activerdfagraph.rubyforge.org/svn
+
+
+
+2007-10-26T13:43:58.583735Z
+19
+emk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ad8c1422-22b5-49a9-b4b4-b6e4a1acbcee
+
+unit
+dir
+
+test_helper.rb
+file
+
+
+
+
+2012-02-24T19:06:29.000000Z
+fc4d849e28f089141debb18b22058277
+2007-10-26T03:27:25.803703Z
+17
+emk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1317
+
+functional
+dir
+
+integration
+dir
+
+fixtures
+dir
+
+mocks
+dir
+

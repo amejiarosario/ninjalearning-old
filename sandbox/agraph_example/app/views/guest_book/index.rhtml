@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Guest Book</title>
+  </head>
+  <body>
+    <h1>Guest Book</h1>
+
+    <% form_for :new_entry, @new_entry, :url => { :action => 'sign' } do |f| %>
+      Name: <%= f.text_field :user_name %><br />
+      Comments:<br />
+      <%= f.text_area :comments, :rows => 5 %><br />
+      <input type="submit" value="Sign">
+    <% end %>
+
+    <h2>Signatures</h2>
+
+    <% for entry in @entries %>
+      <p><b><%=h entry.user_name %></b>: <%=h entry.comments %></p>
+    <% end %>
+  </body>
+</html>

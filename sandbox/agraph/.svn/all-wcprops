@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/22/trunk
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/2/trunk/LICENSE
+END
+Rakefile
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/13/trunk/Rakefile
+END
+tutorial.html
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/22/trunk/tutorial.html
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/4/trunk/README
+END

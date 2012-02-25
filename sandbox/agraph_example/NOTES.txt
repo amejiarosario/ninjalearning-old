@@ -1,0 +1,4 @@
+To create the database schema, we ran:
+
+$ script/console
+>> $rdf_repo.add! [[RDFS::Resource.new($guestbook_uri + 'Entry'), RDFS::Resource.new('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'), RDFS::Resource.new('http://www.w3.org/2000/01/rdf-schema#Class')], [RDFS::Resource.new($guestbook_uri + 'Entry'), RDFS::Resource.new('http://www.w3.org/2000/01/rdf-schema#subClassOf'), RDFS::Resource.new('http://www.w3.org/2000/01/rdf-schema#Resource')]]

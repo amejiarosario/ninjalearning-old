@@ -1,0 +1,148 @@
+<h1>AllegroGraph on Rails: Preliminary Tutorial</h1>
+
+<p>This project is still not ready for production use.  But if you'd like to
+check it out of Subversion and take a look, here's how.</p>
+
+<p>We eventually hope to simplify many of these steps.</p>
+
+<h2>1. Install AllegroGraph</h2>
+
+<p>Download the <a
+href="http://franz.com/downloads/clp/ag_survey">AllegroGraph Free Java
+Edition</a>, and install it normally.</p>
+
+<p>Find the entry for "Start AllegroGraph Free Java Edition" in your start
+menu, right click on it, and select "Properties".</p>
+
+<p>Add the arguments <code>-http 8111</code> to the command line, click
+"OK", and start the server.</p>
+
+<h2>2. Install ActiveRDF and Ruby on Rails</h2>
+
+<p>Install Ruby and Ruby on Rails <a
+href="http://www.rubyonrails.org/down">in the usual fashion</a>.  On some
+platforms, you may also need to install <a
+href="http://rubygems.org/read/chapter/3">RubyGems</a>.</p>
+
+<p>Next, install ActiveRDF and some support libraries:</p>
+
+<pre>
+gem install activerdf activerdf_sparql builder uuidtools
+</pre>
+
+<p>Depending on your operating system, you may need to use <code>sudo gem
+install</code>.</p>
+
+<p>The AllegroGraph adapter is pre-release software, but you can get it
+from Subversion:</p>
+
+<pre>
+svn co http://activerdfagraph.rubyforge.org/svn/trunk/ agraph
+cd agraph
+rake package
+gem install pkg/activerdf_agraph-*.gem
+</pre>
+
+<h2>3. Create a repository</h2>
+
+<p>You can create a new RDF repository using the AllegroGraph server
+interface:</p>
+
+<pre>
+$ irb
+> server = AllegroGraph::Server.new('http://localhost:8111/sesame')
+> repo = server.new_repository("example")
+</pre>
+
+<p>To use the new repository with ActiveRDF, we also need to define any
+classes we plan to use.  In this example, we create a class to represent a
+guestbook entry:</p>
+
+<pre>
+> repo.define_class('http://activerdfagraph.rubyforge.org/guestbook/Entry')
+</pre>
+
+<p>(This particular interface will be mostly likely be replaced by something
+better in the future.)</p>
+
+<h2>4. Build a guestbook application</h2>
+
+<p>Create a new Rails application:</p>
+
+<pre>
+rails guestbook
+cd guestbook
+</pre>
+
+<p>Since we'll be using ActiveRDF in place of ActiveRecord, we also need to
+edit the <code>config/environment.rb</code> file.  We begin by disabling
+ActiveRecord (look for the <code>config.frameworks</code> line near the top
+of the file):
+
+<pre>
+config.frameworks -= [ :active_record ]
+</pre>
+
+<p>Then, down at the bottom of the file, add some code to set up ActiveRDF:
+
+<pre>
+require 'activerdf_agraph'
+
+$repository_uri = 'http://localhost:8111/sesame/repositories/example'
+$guestbook_uri = 'http://activerdfagraph.rubyforge.org/guestbook/'
+
+ConnectionPool.add_data_source(:type => :agraph, :url => $repository_uri)
+Namespace.register :guest, $guestbook_uri
+ObjectManager.construct_classes
+</pre>
+
+<p>Create a file app/controllers/guest_book_controller.rb:</p>
+
+<pre>
+class GuestBookController &lt; ApplicationController
+  def index
+    @new_entry = GUEST::Entry.new(unique_uri)
+    @entries = GUEST::Entry.find_all
+  end
+
+  def sign
+    @entry = GUEST::Entry.new(unique_uri)
+    @entry.save
+    @entry.guest::user_name = @params['new_entry']['user_name']
+    @entry.guest::comments = @params['new_entry']['comments']
+    redirect_to home_url
+  end
+
+  private
+
+  def unique_uri
+    "#{$guestbook_uri}thing/#{UUID.timestamp_create().to_s}"
+  end
+end
+</pre>
+
+<p>And add a file <code>app/views/guest_book/index.rhtml</code>:</p>
+
+<pre>
+&lt;html>
+  &lt;head>
+    &lt;title>Guest Book&lt;/title>
+  &lt;/head>
+  &lt;body>
+    &lt;h1>Guest Book&lt;/h1>
+
+    &lt;% form_for :new_entry, @new_entry, :url => { :action => 'sign' } do |f| %>
+      Name: &lt;%= f.text_field :user_name %>&lt;br />
+      Comments:&lt;br />
+      &lt;%= f.text_area :comments, :rows => 5 %>&lt;br />
+      &lt;input type="submit" value="Sign">
+    &lt;% end %>
+
+    &lt;h2>Signatures&lt;/h2>
+
+    &lt;% for entry in @entries %>
+      &lt;p>&lt;b>&lt;%=h entry.user_name %>&lt;/b>: &lt;%=h entry.comments %>&lt;/p>
+    &lt;% end %>
+  &lt;/body>
+&lt;/html>
+</pre>

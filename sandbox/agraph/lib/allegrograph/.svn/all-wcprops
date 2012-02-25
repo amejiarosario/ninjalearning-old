@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/22/trunk/lib/allegrograph
+END
+http_endpoint.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/7/trunk/lib/allegrograph/http_endpoint.rb
+END
+repository.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/22/trunk/lib/allegrograph/repository.rb
+END
+server_error.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/7/trunk/lib/allegrograph/server_error.rb
+END
+adapter.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/14/trunk/lib/allegrograph/adapter.rb
+END
+server.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/7/trunk/lib/allegrograph/server.rb
+END

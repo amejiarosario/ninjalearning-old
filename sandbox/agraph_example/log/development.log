@@ -1,0 +1,1469 @@
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 07:31:31) [GET]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+
+
+ActionController::UnknownAction (No action responded to index):
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 07:32:00) [GET]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+
+
+ActionController::MissingTemplate (Missing template /Users/emk/w/src/agraph-ex/app/views/guest_book/index.rhtml):
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1211:in `assert_existence_of_template_file'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:810:in `render_file'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:717:in `render_with_no_layout'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/layout.rb:256:in `render_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:50:in `render'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:50:in `render'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1102:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 07:33:24) [GET]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 0.03786 (26 reqs/sec) | Rendering: 0.03060 (80%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 07:39:52) [GET]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+
+
+NameError (uninitialized constant GuestBookController::GUEST):
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:477:in `const_missing'
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:3:in `index'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 07:40:31) [GET]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+
+
+ActionView::TemplateError (undefined local variable or method `f' for #<#<Class:0x34230b0>:0x3423088>) on line #8 of app/views/guest_book/index.rhtml:
+5:   <body>
+6:     <h1>Guest Book</h1>
+7: 
+8:     <% form_for :entry, @entry, :url => { :action => 'sign' } do f %>
+9:       Name: <%= f.text_field :user_name %><br />
+10:       Comments:<br />
+11:       <%= f.text_area :comments %><br />
+
+    /Users/emk/w/src/agraph-ex/app/views/guest_book/index.rhtml:8:in `_run_rhtml_47app47views47guest_book47index46rhtml'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_view/helpers/form_helper.rb:151:in `fields_for'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_view/helpers/form_helper.rb:127:in `form_for'
+    /Users/emk/w/src/agraph-ex/app/views/guest_book/index.rhtml:8:in `_run_rhtml_47app47views47guest_book47index46rhtml'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_view/base.rb:325:in `compile_and_render_template'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_view/base.rb:301:in `render_template'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_view/base.rb:260:in `render_file'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:812:in `render_file'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:717:in `render_with_no_layout'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/layout.rb:256:in `render_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:50:in `render'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:50:in `render'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1102:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 07:40:47) [GET]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 0.96881 (1 reqs/sec) | Rendering: 0.02746 (2%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 07:41:03) [GET]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 0.34221 (2 reqs/sec) | Rendering: 0.03671 (10%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 07:43:12) [GET]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 0.50211 (1 reqs/sec) | Rendering: 0.05044 (10%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 07:43:22) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "controller"=>"guest_book", "entry"=>{"comments"=>"Hi, nice site!", "user_name"=>"Eric"}}
+
+
+ActionController::UnknownAction (No action responded to sign):
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 07:47:12) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "controller"=>"guest_book", "entry"=>{"comments"=>"Hi, nice site!", "user_name"=>"Eric"}}
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.save):
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:8:in `sign'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 07:55:13) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "controller"=>"guest_book", "entry"=>{"comments"=>"Hi, nice site!", "user_name"=>"Eric"}}
+
+
+NameError (undefined local variable or method `unique_uri' for #<GuestBookController:0x3360d1c>):
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:9:in `sign'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 07:56:33) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "controller"=>"guest_book", "entry"=>{"comments"=>"Hi, nice site!", "user_name"=>"Eric"}}
+
+
+NameError (undefined local variable or method `guestbook_uri' for #<GuestBookController:0x3434af4>):
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:19:in `unique_uri'
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:9:in `sign'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 07:56:53) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "controller"=>"guest_book", "entry"=>{"comments"=>"Hi, nice site!", "user_name"=>"Eric"}}
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.save):
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:10:in `sign'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 08:00:43) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "controller"=>"guest_book", "entry"=>{"comments"=>"Hi, nice site!", "user_name"=>"Eric"}}
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.save):
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:10:in `sign'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 08:01:22) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "controller"=>"guest_book", "entry"=>{"comments"=>"Hi, nice site!", "user_name"=>"Eric"}}
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.save):
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:10:in `sign'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+DEPRECATION WARNING: model is deprecated and will be removed from Rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:4)
+DEPRECATION WARNING: depend_on is deprecated and will be removed from Rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from model_without_deprecation at /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/deprecated_dependencies.rb:13)
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 08:02:06) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "controller"=>"guest_book", "entry"=>{"comments"=>"Hi, nice site!", "user_name"=>"Eric"}}
+
+
+AllegroGraph::ServerError (Server error: All of subject, predicate and object must be specified):
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/http_endpoint.rb:101:in `http_request'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/http_endpoint.rb:70:in `http_post'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/repository.rb:27:in `raw_transaction'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/repository.rb:41:in `transaction'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/repository.rb:60:in `add!'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/adapter.rb:64:in `add'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf-1.6.6/lib/active_rdf/objectmanager/resource.rb:304:in `save'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf-1.6.6/lib/active_rdf/objectmanager/resource.rb:303:in `save'
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:12:in `sign'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+DEPRECATION WARNING: model is deprecated and will be removed from Rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:4)
+DEPRECATION WARNING: depend_on is deprecated and will be removed from Rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from model_without_deprecation at /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/deprecated_dependencies.rb:13)
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 08:05:18) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "controller"=>"guest_book", "entry"=>{"comments"=>"Hi, nice site!", "user_name"=>"Eric"}}
+
+
+AllegroGraph::ServerError (Server error: All of subject, predicate and object must be specified):
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/http_endpoint.rb:101:in `http_request'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/http_endpoint.rb:70:in `http_post'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/repository.rb:27:in `raw_transaction'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/repository.rb:41:in `transaction'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/repository.rb:60:in `add!'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/adapter.rb:64:in `add'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf-1.6.6/lib/active_rdf/objectmanager/resource.rb:304:in `save'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf-1.6.6/lib/active_rdf/objectmanager/resource.rb:303:in `save'
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:12:in `sign'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+DEPRECATION WARNING: model is deprecated and will be removed from Rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:4)
+DEPRECATION WARNING: depend_on is deprecated and will be removed from Rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from model_without_deprecation at /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/deprecated_dependencies.rb:13)
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 08:08:09) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "controller"=>"guest_book", "entry"=>{"comments"=>"Hi, nice site!", "user_name"=>"Eric"}}
+
+
+AllegroGraph::ServerError (Server error: All of subject, predicate and object must be specified):
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/http_endpoint.rb:101:in `http_request'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/http_endpoint.rb:70:in `http_post'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/repository.rb:27:in `raw_transaction'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/repository.rb:41:in `transaction'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/repository.rb:60:in `add!'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/adapter.rb:64:in `add'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf-1.6.6/lib/active_rdf/objectmanager/resource.rb:304:in `save'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf-1.6.6/lib/active_rdf/objectmanager/resource.rb:303:in `save'
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:12:in `sign'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+DEPRECATION WARNING: model is deprecated and will be removed from Rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:4)
+DEPRECATION WARNING: depend_on is deprecated and will be removed from Rails 2.0  See http://www.rubyonrails.org/deprecation for details. (called from model_without_deprecation at /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/deprecated_dependencies.rb:13)
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 08:14:35) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "controller"=>"guest_book", "entry"=>{"comments"=>"Hi, nice site!", "user_name"=>"Eric"}}
+
+
+AllegroGraph::ServerError (Server error: All of subject, predicate and object must be specified):
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/http_endpoint.rb:101:in `http_request'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/http_endpoint.rb:70:in `http_post'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/repository.rb:27:in `raw_transaction'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/repository.rb:41:in `transaction'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/repository.rb:60:in `add!'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf_agraph-0.0.0/lib/allegrograph/adapter.rb:64:in `add'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf-1.6.6/lib/active_rdf/objectmanager/resource.rb:304:in `save'
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf-1.6.6/lib/active_rdf/objectmanager/resource.rb:303:in `save'
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:12:in `sign'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 08:15:49) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "controller"=>"guest_book", "entry"=>{"comments"=>"Hi, nice site!", "user_name"=>"Eric"}}
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.save):
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:10:in `sign'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 08:16:09) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "controller"=>"guest_book", "entry"=>{"comments"=>"Hi, nice site!", "user_name"=>"Eric"}}
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.save):
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:10:in `sign'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 08:22:28) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "controller"=>"guest_book", "entry"=>{"comments"=>"Hi, nice site!", "user_name"=>"Eric"}}
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.save):
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:10:in `sign'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 08:25:57) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "controller"=>"guest_book", "entry"=>{"comments"=>"Hi, nice site!", "user_name"=>"Eric"}}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:11)
+
+
+ActiveRdfError (could not set guest_name to : no suitable 
+			predicate found. Maybe you are missing some schema information?):
+    /opt/local/lib/ruby/gems/1.8/gems/activerdf-1.6.6/lib/active_rdf/objectmanager/resource.rb:256:in `method_missing'
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:11:in `sign'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 08:27:57) [GET]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+
+
+ArgumentError (wrong number of arguments (0 for 1)):
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:5:in `initialize'
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:5:in `index'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 08:28:20) [GET]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+
+
+ArgumentError (wrong number of arguments (0 for 1)):
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:5:in `initialize'
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:5:in `index'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 08:28:59) [GET]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 1.90389 (0 reqs/sec) | Rendering: 1.73640 (91%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 08:29:15) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "controller"=>"guest_book", "entry"=>{"comments"=>"Nice site!", "user_name"=>"Eric"}}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:11)
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:12)
+
+
+NoMethodError (undefined method `redirect' for #<GuestBookController:0x35f2620>):
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:13:in `sign'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 08:29:31) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "controller"=>"guest_book", "entry"=>{"comments"=>"Nice site!", "user_name"=>"Eric"}}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:11)
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:12)
+Redirected to http://localhost:3000/guest_book/sign?method=index
+Completed in 1.41867 (0 reqs/sec) | 302 Found [http://localhost/guest_book/sign]
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 08:29:33) [GET]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "method"=>"index", "controller"=>"guest_book"}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:11)
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:11:in `sign'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 08:30:03) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "controller"=>"guest_book", "entry"=>{"comments"=>"Nice site!", "user_name"=>"Eric"}}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:11)
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:12)
+Redirected to http://localhost:3000index
+Completed in 1.71872 (0 reqs/sec) | 302 Found [http://localhost/guest_book/sign]
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 08:30:06) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "controller"=>"guest_book", "entry"=>{"comments"=>"Nice site!", "user_name"=>"Eric"}}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:11)
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:12)
+Redirected to http://localhost:3000index
+Completed in 0.77977 (1 reqs/sec) | 302 Found [http://localhost/guest_book/sign]
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 08:31:21) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"sign", "controller"=>"guest_book", "entry"=>{"comments"=>"Nice site!", "user_name"=>"Eric"}}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:11)
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:12)
+Redirected to http://localhost:3000/
+Completed in 0.86944 (1 reqs/sec) | 302 Found [http://localhost/guest_book/sign]
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 08:31:23) [GET]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 0.67678 (1 reqs/sec) | Rendering: 0.66167 (97%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 08:33:58) [GET]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 6.09259 (0 reqs/sec) | Rendering: 4.91754 (80%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 08:37:28) [GET]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 1.00774 (0 reqs/sec) | Rendering: 0.69810 (69%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 08:37:43) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"new_entry"=>{"comments"=>"Tap. Tap. Is this working?", "user_name"=>"J. Random User"}, "action"=>"sign", "controller"=>"guest_book"}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:12)
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:12:in `sign'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 08:39:06) [GET]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 2.56046 (0 reqs/sec) | Rendering: 2.26914 (88%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 08:40:35) [GET]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 1.06320 (0 reqs/sec) | Rendering: 0.76213 (71%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 08:40:42) [POST]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"new_entry"=>{"comments"=>"Tap. Tap. Is this working?", "user_name"=>"J. Random User"}, "action"=>"sign", "controller"=>"guest_book"}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["new_entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:12)
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["new_entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:13)
+Redirected to http://localhost:3000/
+Completed in 1.77067 (0 reqs/sec) | 302 Found [http://localhost/guest_book/sign]
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 08:40:45) [GET]
+  Session ID: cfe190b35ba8f24278ae4e29be94c62e
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 1.21543 (0 reqs/sec) | Rendering: 1.08613 (89%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 08:59:20) [GET]
+  Session ID: 790ed33f3fea9cc7be79ce36fe389be0
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 1.23315 (0 reqs/sec) | Rendering: 0.93614 (75%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 09:03:37) [GET]
+  Session ID: 4cb18f427599978763ecdf5cb3e36030
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 0.87669 (1 reqs/sec) | Rendering: 0.65239 (74%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 09:10:50) [POST]
+  Session ID: 4cb18f427599978763ecdf5cb3e36030
+  Parameters: {"new_entry"=>{"comments"=>"Hey, I really like your site!", "user_name"=>"Eric Kidd"}, "action"=>"sign", "controller"=>"guest_book"}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:10)
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:10:in `sign'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 09:11:13) [GET]
+  Session ID: 4cb18f427599978763ecdf5cb3e36030
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 1.44878 (0 reqs/sec) | Rendering: 1.35634 (93%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 09:12:18) [POST]
+  Session ID: 4cb18f427599978763ecdf5cb3e36030
+  Parameters: {"new_entry"=>{"comments"=>"Nice site!", "user_name"=>"Eric"}, "action"=>"sign", "controller"=>"guest_book"}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:10)
+
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+    /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:10:in `sign'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:1101:in `perform_action_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:696:in `call_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/rescue.rb:83:in `perform_action'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:435:in `process_without_filters'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/session_management.rb:114:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/base.rb:334:in `process'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/dispatcher.rb:41:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:113:in `handle_dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:79:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /opt/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /opt/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/webrick_server.rb:63:in `dispatch'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/servers/webrick.rb:59
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    /opt/local/lib/ruby/gems/1.8/gems/activesupport-1.4.4/lib/active_support/dependencies.rb:495:in `require'
+    /opt/local/lib/ruby/gems/1.8/gems/rails-1.2.5/lib/commands/server.rb:39
+    /opt/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+
+Rendering /opt/local/lib/ruby/gems/1.8/gems/actionpack-1.13.5/lib/action_controller/templates/rescues/layout.rhtml (500 Internal Error)
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 09:13:13) [GET]
+  Session ID: 4cb18f427599978763ecdf5cb3e36030
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 1.81994 (0 reqs/sec) | Rendering: 1.73409 (95%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 09:13:27) [POST]
+  Session ID: 4cb18f427599978763ecdf5cb3e36030
+  Parameters: {"new_entry"=>{"comments"=>"Not yet!", "user_name"=>"Joe"}, "action"=>"sign", "controller"=>"guest_book"}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["new_entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:10)
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["new_entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:11)
+Redirected to http://localhost:3000/
+Completed in 0.86602 (1 reqs/sec) | 302 Found [http://localhost/guest_book/sign]
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 09:13:28) [GET]
+  Session ID: 4cb18f427599978763ecdf5cb3e36030
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 2.11660 (0 reqs/sec) | Rendering: 2.04364 (96%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 09:13:38) [GET]
+  Session ID: 4cb18f427599978763ecdf5cb3e36030
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 0.52521 (1 reqs/sec) | Rendering: 0.45048 (85%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 09:13:54) [POST]
+  Session ID: 4cb18f427599978763ecdf5cb3e36030
+  Parameters: {"new_entry"=>{"comments"=>"Tap, tap. Is this working?", "user_name"=>"J. Random User"}, "action"=>"sign", "controller"=>"guest_book"}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["new_entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:10)
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["new_entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:11)
+Redirected to http://localhost:3000/
+Completed in 0.89954 (1 reqs/sec) | 302 Found [http://localhost/guest_book/sign]
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 09:13:55) [GET]
+  Session ID: 4cb18f427599978763ecdf5cb3e36030
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 1.00966 (0 reqs/sec) | Rendering: 0.94494 (93%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 09:14:48) [POST]
+  Session ID: 4cb18f427599978763ecdf5cb3e36030
+  Parameters: {"new_entry"=>{"comments"=>"Nice site! Not very exciting, though.", "user_name"=>"Eric"}, "action"=>"sign", "controller"=>"guest_book"}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["new_entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:10)
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["new_entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:11)
+Redirected to http://localhost:3000/
+Completed in 0.59585 (1 reqs/sec) | 302 Found [http://localhost/guest_book/sign]
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 09:14:49) [GET]
+  Session ID: 4cb18f427599978763ecdf5cb3e36030
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 1.28930 (0 reqs/sec) | Rendering: 1.21937 (94%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 09:16:47) [POST]
+  Session ID: 4cb18f427599978763ecdf5cb3e36030
+  Parameters: {"new_entry"=>{"comments"=>"Tap, tap. Is this working?", "user_name"=>"J. Random User"}, "action"=>"sign", "controller"=>"guest_book"}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["new_entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:10)
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["new_entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:11)
+Redirected to http://localhost:3000/
+Completed in 0.51028 (1 reqs/sec) | 302 Found [http://localhost/guest_book/sign]
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 09:16:48) [GET]
+  Session ID: 4cb18f427599978763ecdf5cb3e36030
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 0.75301 (1 reqs/sec) | Rendering: 0.69054 (91%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 09:25:34) [POST]
+  Session ID: 4cb18f427599978763ecdf5cb3e36030
+  Parameters: {"new_entry"=>{"comments"=>"I really like your site!", "user_name"=>"John"}, "action"=>"sign", "controller"=>"guest_book"}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["new_entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:10)
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["new_entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:11)
+Redirected to http://localhost:3000/
+Completed in 0.72829 (1 reqs/sec) | 302 Found [http://localhost/guest_book/sign]
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 09:25:35) [GET]
+  Session ID: 4cb18f427599978763ecdf5cb3e36030
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 0.96366 (1 reqs/sec) | Rendering: 0.89980 (93%) | 200 OK [http://localhost/]
+
+
+Processing GuestBookController#sign (for 127.0.0.1 at 2007-10-26 09:29:14) [POST]
+  Session ID: 4cb18f427599978763ecdf5cb3e36030
+  Parameters: {"new_entry"=>{"comments"=>"Yeah, but it looks a little bit like 1996!", "user_name"=>"Mike"}, "action"=>"sign", "controller"=>"guest_book"}
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["new_entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:10)
+DEPRECATION WARNING: @params is deprecated! Call params.[] instead of @params.[]. Args: ["new_entry"]  See http://www.rubyonrails.org/deprecation for details. (called from sign at /Users/emk/w/src/agraph-ex/app/controllers/guest_book_controller.rb:11)
+Redirected to http://localhost:3000/
+Completed in 0.93552 (1 reqs/sec) | 302 Found [http://localhost/guest_book/sign]
+
+
+Processing GuestBookController#index (for 127.0.0.1 at 2007-10-26 09:29:15) [GET]
+  Session ID: 4cb18f427599978763ecdf5cb3e36030
+  Parameters: {"action"=>"index", "controller"=>"guest_book"}
+Rendering guest_book/index
+Completed in 1.24469 (0 reqs/sec) | Rendering: 1.16500 (93%) | 200 OK [http://localhost/]

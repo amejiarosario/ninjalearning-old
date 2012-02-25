@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/17/example/script
+END
+console
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/17/example/script/console
+END
+breakpointer
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/17/example/script/breakpointer
+END
+server
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/17/example/script/server
+END
+destroy
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/17/example/script/destroy
+END
+runner
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/17/example/script/runner
+END
+about
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/17/example/script/about
+END
+generate
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/17/example/script/generate
+END
+plugin
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/17/example/script/plugin
+END

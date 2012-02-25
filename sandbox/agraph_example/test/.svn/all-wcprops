@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/19/example/test
+END
+test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/17/example/test/test_helper.rb
+END

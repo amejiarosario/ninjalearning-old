@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/19/example/log
+END
+test.log
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/17/example/log/test.log
+END
+development.log
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/19/example/log/development.log
+END
+production.log
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/17/example/log/production.log
+END
+server.log
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/17/example/log/server.log
+END

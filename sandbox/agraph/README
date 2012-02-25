@@ -1,0 +1,4 @@
+This is a simple library for connecting to Franz's AllegroGraph using
+ActiveRDF.  All APIs are unstable, and subject to change.
+
+AllegroGraph is a trademark of Franz, Inc.
