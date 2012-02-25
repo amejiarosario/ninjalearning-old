@@ -1,4 +1,6 @@
 WebappRails::Application.routes.draw do
+  root :to => "home#index"
+
   get "admin/index"
 
   get "study/index"
