@@ -9,9 +9,9 @@ require './config'
 class AGraph
   attr_accessor :username, :password, :host, :port
   
-  ##
+  #
   # Constructor
-  # 192.168.0.99 | 67.240.190.231
+  # 
   def initialize(user,pass,host,port)
     @username = user
     @password = pass
@@ -20,27 +20,38 @@ class AGraph
     @server = AllegroGraph::Server.new :username => @username, :password => @password, :host => @host, :port => @port
   end
   
-  def set_repository(repositoryName='test_ruby')
+  #
+  # Setter for allegro Graph repository
+  #
+  def repository(repositoryName='test_repo')
     @repository = AllegroGraph::Repository.new @server, repositoryName
     @repository.create_if_missing!
   end
   
-  def set_repository=(repositoryName)
-    set_repository repositoryName
+  #
+  # Setter for allegro Graph repository
+  #
+  def repository=(repositoryName)
+    repository repositoryName
   end
   
+  #
   # Return a RDF::Graph with the whole repo.
-  def get_repo (repoName='ComputerScience_test')
+  #
+  def get_repo (repoName='test_repo')
     puts "get_repo"
-    set_repository repoName
+    repository repoName
     puts "set_repository #{@repository}"
     result = @repository.query.perform "select ?s ?p ?o {?s ?p ?o} order by ?s"
     #puts "@repository.query.perform #{result}"
     
-    graph = RDF::Graph.new("http://ninjalearning.info:8080/repositories/ComputerScience_test") # TODO: repo name, host, port, ...
+    graph = RDF::Graph.new(repoName) # TODO: repo name, host, port, ...
     
     result['values'].each do |triple|
       graph << RDF::Statement.new(
+        # FIXME: not all triples are RDF::URI, they also can be: RDF::Literal and RDF:Node
+        # RDF::Node => "<_:g2178284620>"
+        # RDF::Literal => "\"Motorola - Refurbished XOOM Family Edition Tablet with 16GB Memory - Licorice\"@en-us"
         RDF::URI.new(triple[0]),
         RDF::URI.new(triple[1]),
         RDF::URI.new(triple[2]),
@@ -66,11 +77,12 @@ class AGraph
     terms    
   end
   
-  def add (triples, repositoryName=false)
-    if repositoryName
-      self.set_repository repositoryName
-    end
-
+  #
+  # Add a RDF::Statement (triple/quad) 
+  # (no support for quad. Very easy to add though.)
+  #
+  def add (triple)
+    
     #@repository.transaction do
       #triples.each do |triple|
         puts "@repository.statements.create #{triples[0]}, #{triples[1]}, #{triples[2]}"
@@ -80,59 +92,11 @@ class AGraph
     
   end
   
-  ##
-  # Save rdf triples to agraph
-  # @param rdf RDF file
-  # @param repo repository name
-  def save_rdf(rdf, repo)
-    # load triples from string
-    triples = RDF::NTriples::Reader.for(:ntriples).new(rdf)
-    t=[]
-    triples.each_triple do |subject, predicate, object| 
-
-      #check language
-      lang = ""
-      begin
-        lang = object.language
-      rescue
-      end
-
-      if lang==:en || lang=="" || lang==:sp
-          t = nil
-          t = []
-
-          if lang != ""
-            t << "<#{subject}>"
-            t << "<#{predicate}>"
-            t << "\"#{object}\"@#{lang}"
-          else
-            t << "<#{subject}>"
-            t << "<#{predicate}>"
-            t << "<#{object}>"
-          end  
-
-          print t
-          puts ""
-          self.add(t,repo)
-      else
-        puts "#{subject} --#{predicate}--> #{object}"
-        puts lang if not lang==""
-      end
-    end
-  end
-
-=begin
-  def insert(graph)
-    @repository.transaction do
-      graph.dump(:ntriples).split(/\n/).each do |line|
-        triples = line.split(/ /)
-        statements.create triples[0], triples[1], triples[2]
-      end
-    end
-  end
-=end
-
-  def insert(graph)
+  #
+  # Insert RDF::Graph into the Allegro repositoy
+  # Sadly, @repository.transaction timeout, so no transactions.
+  #
+  def insert(graph)    
     graph.each_triple do |s, p, o|
       @repository.statements.create pt(s), pt(p), pt(o)
     end
@@ -153,7 +117,7 @@ class AGraph
   end
   
   #
-  # 
+  # escape double quoutes
   #
   def escape(triple)
     s = triple.to_s.gsub(/\"/,"\\\"")
@@ -165,7 +129,7 @@ end
 =begin
 # test
 ag = AGraph.new($AGRAPH['user'],$AGRAPH['pass'],$AGRAPH['host'],$AGRAPH['port'])
-ag.set_repository = "bestbuy_test"
+ag.repository = "bestbuy_test"
 
 graph = RDF::Graph.new
 graph << RDF::RDFa::Reader.open("http://www.bestbuy.com/shop/ipad+xoom")
