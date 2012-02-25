@@ -120,7 +120,8 @@ class AGraph
       end
     end
   end
-  
+
+=begin
   def insert(graph)
     @repository.transaction do
       graph.dump(:ntriples).split(/\n/).each do |line|
@@ -129,16 +130,46 @@ class AGraph
       end
     end
   end
+=end
+
+  def insert(graph)
+    graph.each_triple do |s, p, o|
+      @repository.statements.create pt(s), pt(p), pt(o)
+    end
+  end
+  
+  #
+  # Prepare triple. Serialize a triple with a N-Triple format
+  #
+  def pt(triple)
+    if triple.literal?
+      s = "\"#{escape(triple)}\""
+      s += "@#{escape(triple.language)}" if triple.language?
+      return s
+    else
+      return "<#{escape(triple)}>"
+    end
+     #when iri? # when node?
+  end
+  
+  #
+  # 
+  #
+  def escape(triple)
+    s = triple.to_s.gsub(/\"/,"\\\"")
+    s
+  end
   
 end
 
-
+=begin
 # test
 ag = AGraph.new($AGRAPH['user'],$AGRAPH['pass'],$AGRAPH['host'],$AGRAPH['port'])
 ag.set_repository = "bestbuy_test"
 
 graph = RDF::Graph.new
-graph << RDF::RDFa::Reader.open("http://www.bestbuy.com/shop/ipad+xoom+-windows")
+graph << RDF::RDFa::Reader.open("http://www.bestbuy.com/shop/ipad+xoom")
 puts graph.statements.count
+ag.insert(graph)
 
-#ag.insert(graph)
+=end
